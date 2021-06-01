@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Muli:wght@300;400&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    border-radius: 33px;
+    margin: 100px;
+    width: 250px;
+}
+
+nav {
+    height: 5vh;
+    background-color: #3E1C74;
+}
+
+.placard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 60%;
+}
+
+h1 {
+    margin-top: 180px;
+    font-family: Courgette;
+    font-size: 40px;
+}
+
+.btn-darkblue {
+    border: none;
+    background-color: #85A7FF;
+    padding: 20px;
+    font-size: large;
+    border-radius: 8px;
+    width: 300px;
+    text-decoration: none;
+    color: black;
+    font-family: muli;
+    text-align: center;
+}
+
+.btn-lightblue {
+    border: none;
+    background-color: #85DAFF;
+    padding: 20px;
+    font-size: large;
+    border-radius: 8px;
+    width: 300px;
+    text-decoration: none;
+    color: black;
+    font-family: muli;
+    text-align: center;
+    cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.btn-darkblue:hover {
+    background-color: #6791fd;
+}
+
+.btn-lightblue:hover {
+    background-color: #5acbfc;
+}
